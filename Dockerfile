@@ -2,7 +2,7 @@ FROM ruby:2.4
 
 MAINTAINER thinkbot@outlook.de
 
-ENV VERSION=0.9.0
+ENV VERSION=0.9.2
 
 RUN gem install bio-phyta --version ${VERSION} --no-format-exec
 
